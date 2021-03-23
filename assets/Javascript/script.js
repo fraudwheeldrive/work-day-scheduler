@@ -1,4 +1,5 @@
 // set up static var 
 
 // load today's date 
-var currentDay = $(".currentDay").datepicker("getDate");
+$("#currentDay").datepicker().datepicker("setDate", new Date());
+append(currentDay);
