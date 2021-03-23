@@ -1,5 +1,13 @@
 // set up static var 
 
-// load today's date 
-$("#currentDay").datepicker().datepicker("setDate", new Date());
-append(currentDay);
+var today = moment().format("dddd, MMMM Do");
+var now = moment().format ("H A");
+
+//WHEN I open the planner
+//THEN the current day is displayed at the top of the calendar
+
+$("#currentDay").text(today);
+
+
+
+
