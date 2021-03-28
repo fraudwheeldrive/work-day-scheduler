@@ -1,4 +1,4 @@
-# Work Day Scheduler S
+# Work Day Scheduler 
 ## User story 
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
@@ -31,6 +31,7 @@ website can be viewed at
 
 ## Github Repository 
 Github Repository can be viewed at 
+https://fraudwheeldrive.github.io/work-day-scheduler/
 
 ##  Built With 
 Password Generator is built with:
