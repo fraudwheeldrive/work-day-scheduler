@@ -23,12 +23,12 @@ $("#currentDay").text(rightNow);
 var hourSort = function(){
     var blockTime = moment().hour();
 
-    for(var i=09; i<17; i++){
+    for(var i=09; i<18; i++){
         var hourArea =$("#hour-"+i)
         if(blockTime > i){
             $(hourArea).addClass("present");
         }else if (blockTime === i){
-            $(hourArea).addClass("present");
+            $(hourArea).addClass("past");
         }else {
             $(hourArea).addClass("future")
         }
