@@ -20,8 +20,11 @@ $("#currentDay").text(rightNow);
 //WHEN I view the time blocks for that day
 //THEN each time block is color-coded to indicate whether it is in the past, present, or future
 
+// change block colors based on time 
 var hourSort = function(){
     var blockTime = moment().hour();
+
+    //for loop to dertermine the time / color of blcok 
 
     for(var i=09; i<18; i++){
         var hourArea =$("#hour-"+i)
@@ -36,18 +39,26 @@ var hourSort = function(){
 };
     
 
-
-
-    //THEN each time block is color-coded to indicate whether it is in the past, present, or future
-
-
 //WHEN I click into a time block
 //THEN I can enter an event
+
+
+$(".description").on("click", "form", function(){
+    console.log("<textarea> was clicked");
+});
+ 
 
 
 
 //WHEN I click the save button for that time block
 //THEN the text for that event is saved in local storage
+
+//save click
+
+$(".saveBtn").on("click", function(){
+    console.log("<savebutton> was clicked");
+
+});
 
 
 
