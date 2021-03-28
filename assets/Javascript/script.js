@@ -1,17 +1,11 @@
 
 
 
+
 //WHEN I open the planner
 //THEN the current day is displayed at the top of the calendar
-//var today = (moment().format("MMM D, YYYY"))
-//$("#currentDay").text(today);
-
-//var now = (moment().format("HH:HH"))
-var rightNow = new Date();
-$("#currentDay").text(rightNow);
-
-
-
+var today = (moment().format("MMMM D, YYYY"))
+$("#currentDay").text(today);
 
 //WHEN I scroll down
 //THEN I am presented with time blocks for standard business hours
@@ -43,8 +37,8 @@ var hourSort = function(){
 //THEN I can enter an event
 
 
-$(".description").on("click", "form", function(){
-    console.log("<textarea> was clicked");
+$(".description").on("click", "p", function(){
+    
 });
  
 
@@ -56,11 +50,8 @@ $(".description").on("click", "form", function(){
 //save click
 
 $(".saveBtn").on("click", function(){
-    console.log("<savebutton> was clicked");
 
 });
-
-
 
 
 //WHEN I refresh the page
