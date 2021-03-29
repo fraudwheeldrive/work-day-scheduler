@@ -28,10 +28,10 @@ Each timeblock is editable and will retain information on page refesh (this func
 
 ## Website location 
 website can be viewed at 
-
+https://fraudwheeldrive.github.io/work-day-scheduler/
 ## Github Repository 
 Github Repository can be viewed at 
-https://fraudwheeldrive.github.io/work-day-scheduler/
+https://github.com/fraudwheeldrive/work-day-scheduler
 
 ##  Built With 
 Password Generator is built with:
